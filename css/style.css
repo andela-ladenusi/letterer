@@ -116,7 +116,7 @@ header {
 }
 
 .welcome p {
-	margin: 10px auto;
+	margin: 40px auto;
 	font-size: 3em;
 	color: #fff;
 }
@@ -132,8 +132,51 @@ header {
   font-weight: bold;
   box-shadow: 0 1px 2px 1px #333;
   font-size: 18px;
+  margin: 20px auto;
 }
 
-.welcome button:first-child {
-	margin: 20px auto;
+/*.welcome button:first-child {
+	margin-right: 10px;
+}*/
+
+.game, .gameForm {
+	width: 100%;
 }
+
+.game {
+	margin: 20px 0;
+}
+
+.gameForm {
+	text-align: center;
+	height: 3em;
+}
+
+
+.gameForm input {
+	margin: 5px 0;
+	height: 3em;
+	/*width: 70%;*/
+	text-align: center;
+	font-size: 5em;
+	border: 0;
+	background-color: #efefef;
+}
+
+.gameForm input:focus {
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
