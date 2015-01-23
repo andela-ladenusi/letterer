@@ -1,0 +1,139 @@
+html, body {
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	background-color: #efefef;
+}
+
+.wrapper {
+	min-width: 100%;
+}
+
+header {
+	height: 10vh;
+	border-bottom: 1px solid #008567;
+	box-shadow: 0 1px 10px 2px #666;
+	background-color: #fff;
+	color: #008567;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.auth {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  height: 45vh;
+  width: 40vw;
+  margin-top: -22.5vh; /*set to a negative number 1/2 of your height*/
+  margin-left: -20vw; /*set to a negative number 1/2 of your width*/
+  border: 1px solid #ccc;
+  background-color: #008567;
+  border-radius: 40px;
+  border-color: #008567;
+  box-shadow: 0 1px 20px 3px #999;
+}
+
+.signin, .signup {
+	width: 100%;
+	height: 100%;
+}
+
+.signinForm legend, .signupForm legend {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  padding: 10px 0;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.signinForm input, .signupForm input {
+  margin: 10px auto;
+  display: block;
+  padding: 0 5px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  height: 50px;
+  width: 15em;
+  box-shadow: inset 0 2px 2px 0 #ddd;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #008567;
+  background-color: #fff;
+}
+
+/*.signinForm input:focus {
+  border-color: #10B38F;
+}*/
+
+.signinForm .buttons, .signupForm .buttons {
+  width: 80%;
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+
+.signinForm button, .signupForm button {
+  padding: 10px 35px;
+  border-radius: 8px;
+  border: 2px solid #008567;
+  background-color: #10B38F;
+  color: #FFF;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: 0 1px 2px 1px #333;
+  font-size: 18px;
+}
+
+.signin p, .signup p {
+  color: #fff;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.welcome {
+	position:fixed;
+  top: 50%;
+  left: 50%;
+  height: 50vh;
+  width: 40vw;
+  margin-top: -25vh; /*set to a negative number 1/2 of your height*/
+  margin-left: -20vw; /*set to a negative number 1/2 of your width*/
+  border: 1px solid #ccc;
+  background-color: #008567;
+  border-radius: 40px;
+  border-color: #008567;
+  box-shadow: 0 1px 20px 3px #999;
+  text-align: center;
+}
+
+.welcome p {
+	margin: 10px auto;
+	font-size: 3em;
+	color: #fff;
+}
+
+.welcome button {
+	/*display: block;*/
+	padding: 10px 35px;
+  border-radius: 8px;
+  border: 2px solid #008567;
+  background-color: #10B38F;
+  color: #FFF;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: 0 1px 2px 1px #333;
+  font-size: 18px;
+}
+
+.welcome button:first-child {
+	margin: 20px auto;
+}
